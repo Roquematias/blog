@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog de Programación y Desarrollo</title>
+</head>
+<body>
+
+    <header id="inicio">
+        <h1>TechDev Blog</h1>
+        <nav aria-label="Navegación principal del blog">
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#articulos">Artículos</a></li>
+                <li><a href="#recursos">Recursos y Enlaces</a></li>
+                <li><a href="#contacto">Tabla de Contactos</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main tabindex="0">
+        <section id="articulos">
+            <h2>Artículos Recientes</h2>
+            
+            <article>
+                <h3>Introducción a las Buenas Prácticas en Java y Spring Boot</h3>
+                <p>
+                    El desarrollo backend moderno exige código limpio, mantenible y escalable. 
+                    Utilizar una arquitectura modular con DTOs y una correcta inyección de dependencias 
+                    facilita enormemente las pruebas unitarias y el mantenimiento evolutivo de las aplicaciones.
+                </p>
+                <p>Principales ventajas de una arquitectura en capas:</p>
+                <ul>
+                    <li>Separación clara de responsabilidades (Controller, Service, Repository).</li>
+                    <li>Reutilización de código y componentes desacoplados.</li>
+                    <li>Mayor facilidad para escalar y depurar errores.</li>
+                </ul>
+            </article>
+
+            <article>
+                <h3>Optimización de Consultas SQL y JPA/Hibernate</h3>
+                <p>
+                    Cuando trabajamos con grandes volúmenes de datos en bases de datos relacionales como PostgreSQL, 
+                    el rendimiento de nuestras consultas es crítico. Evitar el problema de las consultas N+1 
+                    y utilizar índices adecuados marca una diferencia sustancial en la eficiencia del sistema.
+                </p>
+                <p>Puntos clave a tener en cuenta:</p>
+                <ol>
+                    <li>Utilizar proyecciones o consultas JPQL optimizadas.</li>
+                    <li>Revisar los planes de ejecución de la base de datos.</li>
+                    <li>Configurar correctamente el mapeo de entidades y relaciones.</li>
+                </ol>
+            </article>
+        </section>
+
+        <aside id="recursos">
+            <h3>Enlaces Relacionados</h3>
+            <ul>
+                <li><a href="https://spring.io/" target="_blank" rel="noopener noreferrer">Spring Official Website</a></li>
+                <li><a href="https://www.postgresql.org/" target="_blank" rel="noopener noreferrer">PostgreSQL Documentation</a></li>
+                <li><a href="https://developer.mozilla.org/" target="_blank" rel="noopener noreferrer">MDN Web Docs</a></li>
+            </ul>
+        </aside>
+    </main>
+
+    <footer id="contacto">
+        <h2>Directorio de Contactos del Proyecto</h2>
+        <table border="1">
+            <thead>
+                <tr>
+                    <th>Nombre</th>
+                    <th>Correo</th>
+                    <th>Cargo</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Ana Gómez</td>
+                    <td>ana.gomez@example.com</td>
+                    <td>Arquitecta de Software</td>
+                </tr>
+                <tr>
+                    <td>Carlos Ruiz</td>
+                    <td>carlos.ruiz@example.com</td>
+                    <td>Administrador de Base de Datos</td>
+                </tr>
+                <tr>
+                    <td>Lucía Fernández</td>
+                    <td>lucia.fernandez@example.com</td>
+                    <td>Desarrolladora Frontend Senior</td>
+                </tr>
+            </tbody>
+        </table>
+        <p>&copy; 2026 - Tecnicatura Universitaria en Programación</p>
+    </footer>
+
+</body>
+</html>
